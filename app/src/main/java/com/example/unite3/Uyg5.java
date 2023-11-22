@@ -12,6 +12,12 @@ public class Uyg5 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_uyg5);
+
+    float ondalık1 = 1f/3f;
+    double ondalık2 = 1d/2d;
+    System.out.println("flot: (1/3) = "+ ondalık1);
+        System.out.println("double: (1/3) = "+ ondalık2);
+        
         boolean degisken1=true;
         System.out.println(degisken1);
 
