@@ -13,16 +13,12 @@ public class Uyg5 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_uyg5);
 
-    float ondalık1 = 1f/3f;
-    double ondalık2 = 1d/2d;
-    System.out.println("flot: (1/3) = "+ ondalık1);
+        float ondalık1 = 1f/3f;
+        double ondalık2 = 1d/2d;
+        System.out.println("float: (1/3) = "+ ondalık1);
         System.out.println("double: (1/3) = "+ ondalık2);
         
-        boolean degisken1=true;
-        System.out.println(degisken1);
 
-        boolean degisken2=false;
-        System.out.println(degisken2);
     }
 
     public void Geri(View view) {

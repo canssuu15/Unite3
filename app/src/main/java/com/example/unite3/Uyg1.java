@@ -20,8 +20,6 @@ public class Uyg1 extends AppCompatActivity {
 
     }
 
-
-
     public void geri(View view) {
         Intent i = new Intent(Uyg1.this, MainActivity.class);
         startActivity(i);

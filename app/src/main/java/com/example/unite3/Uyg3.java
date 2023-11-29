@@ -12,11 +12,11 @@ public class Uyg3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_uyg3);
-        boolean degisken1=true;
-        System.out.println(degisken1);
 
-        boolean degisken2=false;
-        System.out.println(degisken2);
+    char karakter= 'A';
+    System.out.println("karakter: " + karakter);
+    karakter ='A' + 1;
+    System.out.println("karakter:" + karakter);
     }
 
     public void Geri(View view) {
