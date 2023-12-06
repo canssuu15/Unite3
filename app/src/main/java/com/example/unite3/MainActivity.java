@@ -50,5 +50,24 @@ public class MainActivity extends AppCompatActivity {
     public void uyg7(View view) {
         Intent i = new Intent(MainActivity.this, Uyg7.class);
         startActivity(i);
+
+    }
+
+    public void uyg8(View view) {
+        Intent i = new Intent(MainActivity.this, Uyg8.class);
+        startActivity(i);
+    }
+
+    public void uyg9(View view) {
+        Intent i = new Intent(MainActivity.this, Uyg9.class);
+        startActivity(i);
+    }
+    public void uyg10(View view) {
+        Intent i = new Intent(MainActivity.this, Uyg10.class);
+        startActivity(i);
+    }
+    public void uyg11(View view) {
+        Intent i = new Intent(MainActivity.this, Uyg11.class);
+        startActivity(i);
     }
 }
